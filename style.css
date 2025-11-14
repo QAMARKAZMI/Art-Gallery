@@ -290,6 +290,23 @@ section h2 {
 
 
 /* Contact */
+.contact-form input,
+.contact-form textarea {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  transition: border-color var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--primary);
+  box-shadow: var(--hover-shadow);
+}
+
+.contact-info i {
+  color: var(--primary);
+}
 /* shazia */
 
 
