@@ -256,6 +256,14 @@ section h2 {
 
 
 /* About */
+.about-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about-text h3 {
+  color: var(--primary);
+}
 /* mariza */
 
 
