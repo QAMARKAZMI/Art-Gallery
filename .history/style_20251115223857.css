@@ -15,7 +15,6 @@
 
 * {
   font-family: 'Poppins', sans-serif;
-
 }
 
 body {
@@ -48,41 +47,36 @@ body {
 
 /* Hero Section */
 
-.hero {
-  margin-top: 70px;
-  /* offset navbar */
-}
+  .hero {
+    margin-top: 70px; /* offset navbar */
+  }
 
-.hero-img {
-  height: 90vh;
-  /* increased height to nearly full screen */
-  object-fit: cover;
-  filter: brightness(75%);
-  /* darken for better text visibility */
-}
+  .hero-img {
+    height: 90vh; /* increased height to nearly full screen */
+    object-fit: cover;
+    filter: brightness(75%); /* darken for better text visibility */
+  }
 
-.carousel-caption {
-  bottom: 20%;
-  max-width: 700px;
-}
+  .carousel-caption {
+    bottom: 20%;
+    max-width: 700px;
+  }
 
-.carousel-caption h1 {
-  font-size: 3.5rem;
-}
+  .carousel-caption h1 {
+    font-size: 3.5rem;
+  }
 
-.carousel-caption p {
-  font-size: 1.1rem;
-}
+  .carousel-caption p {
+    font-size: 1.1rem;
+  }
 
 /* Circular arrow buttons */
 .carousel-control-prev,
 .carousel-control-next {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  /* make circle */
-  background-color: rgba(0, 0, 0, 0.5);
-  /* semi-transparent black */
+  border-radius: 50%; /* make circle */
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,8 +87,7 @@ body {
 /* Adjust default arrow icons */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-image: none;
-  /* remove default icon */
+  background-image: none; /* remove default icon */
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -105,10 +98,8 @@ body {
 .carousel-control-next {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  /* circular shape */
-  background-color: rgba(0, 0, 0, 0.5);
-  /* semi-transparent background */
+  border-radius: 50%; /* circular shape */
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,20 +109,17 @@ body {
 
 /* Add spacing from screen edges */
 .carousel-control-prev {
-  left: 20px;
-  /* distance from left */
+  left: 20px; /* distance from left */
 }
 
 .carousel-control-next {
-  right: 20px;
-  /* distance from right */
+  right: 20px; /* distance from right */
 }
 
 /* Adjust default arrow icons */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  background-image: none;
-  /* remove default icon */
+  background-image: none; /* remove default icon */
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -148,13 +136,11 @@ body {
 }
 
 .carousel-control-prev-icon::after {
-  transform: rotate(135deg);
-  /* left arrow */
+  transform: rotate(135deg); /* left arrow */
 }
 
 .carousel-control-next-icon::after {
-  transform: rotate(-45deg);
-  /* right arrow */
+  transform: rotate(-45deg); /* right arrow */
 }
 
 
@@ -173,7 +159,6 @@ body {
   transform: translateY(-3px);
   background: #ff4c3b;
 }
-
 @media (max-width: 768px) {
   .carousel-caption {
     text-align: center !important;
@@ -213,7 +198,6 @@ section h2 {
   font-weight: 600;
   color: var(--secondary);
 }
-
 /* hannan */
 
 
@@ -221,101 +205,7 @@ section h2 {
 
 /* Gallery */
 
-.gallery-item {
-  height: 350px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
-}
 
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  transition: transform var(--transition-speed);
-}
-
-.gallery-item:hover img {
-  transform: scale(1.1);
-}
-
-.gallery-overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.6);
-  color: var(--text-light);
-  padding: 15px;
-  opacity: 0;
-  transition: opacity var(--transition-speed);
-}
-
-.gallery-item:hover .gallery-overlay {
-  opacity: 1;
-}
-
-/* ---------------------------- */
-/* POPUP VIEWER CSS (UPDATED)   */
-/* ---------------------------- */
-
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.85);
-  display: none;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  z-index: 9999;
-}
-
-.popup:target {
-  display: flex;
-}
-
-.popup img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100vh;
-  object-fit: contain;
-  border-radius: 10px;
-  display: block;
-  margin: auto;
-}
-
-/* Buttons */
-.popup .nav-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 50px;
-  color: white;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.popup .prev {
-  left: 20px;
-}
-
-.popup .next {
-  right: 20px;
-}
-
-.popup .close {
-  position: absolute;
-  top: 20px;
-  right: 25px;
-  font-size: 45px;
-  text-decoration: none;
-  color: white;
-}
 
 /* qamar */
 
@@ -341,8 +231,7 @@ section h2 {
   border-radius: 50%;
   object-fit: cover;
 }
-
-/* shairyar */
+ /* shairyar */
 
 
 
@@ -358,7 +247,6 @@ section h2 {
 .about-text h3 {
   color: var(--primary);
 }
-
 /* mariza */
 
 
@@ -384,7 +272,6 @@ section h2 {
 .contact-info i {
   color: var(--primary);
 }
-
 /* shazia */
 
 
@@ -395,30 +282,30 @@ section h2 {
 
 
 /* Footer */
-.footer-link {
-  color: #4a3f35;
-  text-decoration: none;
-  transition: color 0.3s ease, padding-left 0.3s ease;
-}
+ .footer-link {
+    color: #4a3f35;
+    text-decoration: none;
+    transition: color 0.3s ease, padding-left 0.3s ease;
+  }
 
-.footer-link:hover {
-  color: #8b5e3c;
-  padding-left: 5px;
-}
+  .footer-link:hover {
+    color: #8b5e3c;
+    padding-left: 5px;
+  }
 
-.social-icons a {
-  transition: color 0.3s ease, transform 0.3s ease;
-}
+  .social-icons a {
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
 
-.social-icons a:hover {
-  color: #8b5e3c;
-  transform: translateY(-3px);
-}
+  .social-icons a:hover {
+    color: #8b5e3c;
+    transform: translateY(-3px);
+  }
 
-.footer h5 {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 0.5px;
-}
+  .footer h5 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.5px;
+  }
 
 
 
