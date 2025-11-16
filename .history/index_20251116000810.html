@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artisan Gallery - Contemporary Art & Design</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <div class="container">
+        <!-- Logo + Brand -->
+        <a class="navbar-brand d-flex align-items-center fw-bold">
+          <i class="fas fa-palette me-2 text-primary"></i>
+          <img src="assets/logo.png" alt="Art Gallery Logo"
+            style="height:60px; width:auto; margin-right:8px;">
+
+        </a>
+
+        <!-- Toggler -->
+        <button class="navbar-toggler border-0" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a
+                class="nav-link active text-dark fw-semibold"
+                href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-semibold"
+                href="#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-semibold"
+                href="#artists">Artists</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-semibold"
+                href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link text-dark fw-semibold"
+                href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero ">
+      <div id="carouselExampleAutoplaying" class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/360_F_1444247_WR6q9ISl4DNgUHjFgCeI67H5j2YV9S.jpg"
+              class="d-block w-100 hero-img" alt="Art 1" />
+            <div class="carousel-caption text-start text-white">
+              <h1 class="display-3 fw-bold">Welcome to Artisan Gallery</h1>
+              <p class="lead">Discover Contemporary Art & Design Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Nesciunt commodi
+                sint temporibus esse saepe officia dolores modi animi quidem
+                distinctio architecto voluptate error corporis delectus totam,
+                similique nisi sapiente at.</p>
+              <a href="#gallery" class="btn btn-primary btn-lg mt-3">Explore
+                Gallery</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="assets/XX6UbxryDCSZZK7ksg4Pm4.jpg"
+              class="d-block w-100 hero-img" alt="Art 2" />
+            <div class="carousel-caption text-start text-white">
+              <h1 class="display-3 fw-bold">Timeless Masterpieces</h1>
+              <p class="lead">Curated Collection of World-Class Art</p>
+              <a href="#gallery" class="btn btn-primary btn-lg mt-3">View
+                Collection</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/images.jpg" class="d-block w-100 hero-img"
+              alt="Art 2" />
+            <div class="carousel-caption text-start text-white">
+              <h1 class="display-3 fw-bold">beautifu Paintings</h1>
+              <p class="lead">Curated Collection of World-Class Art
+                Lorem ipsum dolor sit amet.
+              </p>
+              <a href="#gallery" class="btn btn-primary btn-lg mt-3">View
+                Collection</a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              src="assets/painting-by-raphael-vatican-museum-600nw-2222666693.webp"
+              class="d-block w-100 hero-img" alt="Art 3" />
+            <div class="carousel-caption text-start text-white">
+              <h1 class="display-3 fw-bold">Renaissance Beauty</h1>
+              <p class="lead">Experience Art Through the Ages Lorem ipsum dolor
+                sit amet. Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</p>
+              <a href="#gallery" class="btn btn-primary btn-lg mt-3">Explore
+                Now</a>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button"
+          data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories py-5 text-center bg-light">
+      <div class="container">
+        <h2 class=" mb-5">Authentic Pakistani Art Collection</h2>
+        <div class="row justify-content-center g-4">
+          <div class="col-6 col-md-2 category-card">
+            <img src="assets/wPHeMSSgqgdFvZmhPBM9QYkIGKawk29tzRmeoPgG.webp"
+              class="circle-img" alt>
+            <p>Sculptures</p>
+          </div>
+          <div class="col-6 col-md-2 category-card">
+            <img src="assets/UWrv0bW60k78tO2Z2q98juxd02viPIENn9rzkp8C.webp"
+              class="circle-img" alt>
+            <p>Paintings</p>
+          </div>
+          <div class="col-6 col-md-2 category-card">
+            <img src="assets/tGacyqyVOOJ9BKNg1bLdNs9uxxH8n99BZiTNF4JS.webp"
+              class="circle-img" alt>
+            <p>Modern Art</p>
+          </div>
+          <div class="col-6 col-md-2 category-card">
+            <img src="assets/LSHDCv3VfiNt3LPwktqmXRtTeEJCxpRFCCKA9ER6.webp"
+              class="circle-img" alt>
+            <p>Handicrafts</p>
+          </div>
+          <div class="col-6 col-md-2 category-card">
+            <img src="assets/LpBKTRyq1PhYj8oWhl5FqGnq2NsoOES4xqFcnuuP.webp"
+              class="circle-img" alt>
+            <p>Antiques</p>
+          </div>
+          <div class="col-6 col-md-2 category-card">
+            <img src="assets/aUtiOlM5hhPq4SDYDC0aKIRTkLiiAOHkpibrHKTw.webp"
+              class="circle-img" alt>
+            <p>Digital Art</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hannan -->
+
+    <!-- Gallery Section -->
+
+    <section id="gallery" class="py-5 bg-white">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2>Our Gallery</h2>
+          <p>Explore our curated collection of contemporary masterpieces</p>
+        </div>
+
+        <div class="row g-4 gallery-grid">
+
+          <div class="col-md-3">
+            <a href="#img1">
+              <div class="gallery-item">
+                <img src="assets/96b52x1o9joa1.jpg" class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Abstract Horizons</h5>
+                  <p>Mixed Media, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img2">
+              <div class="gallery-item">
+                <img
+                  src="assets/image_3T99ljJq_1701410552124_1024.webp"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Urban Dreams</h5>
+                  <p>Acrylic on Canvas, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img3">
+              <div class="gallery-item">
+                <img
+                  src="assets/t6fzsssp00pa1.jpg"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Color Symphony</h5>
+                  <p>Oil Painting, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img4">
+              <div class="gallery-item">
+                <img
+                  src="assets/1299623.png"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Digital Fusion</h5>
+                  <p>Digital Art, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img5">
+              <div class="gallery-item">
+                <img
+                  src="assets/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vMmIxMjU0MjEtNWVkYy00MDNmLTkxNTAtZDA2MjBiZTM3ZTg1LmpwZWc (1).webp"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Eternal Forms</h5>
+                  <p>Bronze Sculpture, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img6">
+              <div class="gallery-item">
+                <img
+                  src="assets/maxresdefault.jpg"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Minimalist Vision</h5>
+                  <p>Installation, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img7">
+              <div class="gallery-item">
+                <img
+                  src="assets/zXfNUu0fTLCG_L6rgmubyg.webp"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Serene Landscapes</h5>
+                  <p>Watercolor, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3">
+            <a href="#img8">
+              <div class="gallery-item">
+                <img
+                  src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?w=600"
+                  class="img-fluid" alt>
+                <div class="gallery-overlay">
+                  <h5>Urban Colors</h5>
+                  <p>Spray Paint, 2024</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+          <a href="#" class="btn btn-outline-dark btn-lg">View More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPUP WINDOWS -->
+    <div id="img1" class="popup">
+      <a href="#img8" class="nav-btn prev">❮</a>
+      <img src="assets/96b52x1o9joa1.jpg">
+      <a href="#img2" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img2" class="popup">
+      <a href="#img1" class="nav-btn prev">❮</a>
+      <img
+        src="assets/image_3T99ljJq_1701410552124_1024.webp">
+      <a href="#img3" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img3" class="popup">
+      <a href="#img2" class="nav-btn prev">❮</a>
+      <img
+        src="assets/t6fzsssp00pa1.jpg">
+      <a href="#img4" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img4" class="popup">
+      <a href="#img3" class="nav-btn prev">❮</a>
+      <img
+        src="assets/1299623.png">
+      <a href="#img5" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img5" class="popup">
+      <a href="#img4" class="nav-btn prev">❮</a>
+      <img
+        src="assets/aHR0cHM6Ly9iLnN0YWJsZWNvZy5jb20vMmIxMjU0MjEtNWVkYy00MDNmLTkxNTAtZDA2MjBiZTM3ZTg1LmpwZWc (1).webp">
+      <a href="#img6" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img6" class="popup">
+      <a href="#img5" class="nav-btn prev">❮</a>
+      <img
+        src="assets/maxresdefault.jpg">
+      <a href="#img7" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img7" class="popup">
+      <a href="#img6" class="nav-btn prev">❮</a>
+      <img
+        src="assets/zXfNUu0fTLCG_L6rgmubyg.webp">
+      <a href="#img8" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <div id="img8" class="popup">
+      <a href="#img7" class="nav-btn prev">❮</a>
+      <img
+        src="assets\wallpapersden.com_sunset-over-tranquil-mountain-lake-beautiful-landscape-digital-painting_3840x2158.jpg">
+      <a href="#img1" class="nav-btn next">❯</a>
+      <a href="#" class="close">&times;</a>
+    </div>
+
+    <!-- qamar -->
+
+    <!-- Artists Section -->
+    <section id="artists" class="py-5 bg-light">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2>Featured Artists</h2>
+          <p>Meet the creative minds behind our collection</p>
+        </div>
+        <div class="row g-4 artists-grid">
+          <div class="col-md-4 artist-card text-center">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300"
+              class="artist-img mb-3"
+              alt="Sarah Mitchell">
+            <h3>Sarah Mitchell</h3>
+            <p>Contemporary abstract artist specializing in bold colors and
+              emotional expressions through mixed media.</p>
+          </div>
+          <div class="col-md-4 artist-card text-center">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300"
+              class="artist-img mb-3"
+              alt="David Chen">
+            <h3>David Chen</h3>
+            <p>Renowned sculptor and installation artist exploring the
+              intersection of nature and urban life.</p>
+          </div>
+          <div class="col-md-4 artist-card text-center">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300"
+              class="artist-img mb-3"
+              alt="Elena Rodriguez">
+            <h3>Elena Rodriguez</h3>
+            <p>Digital artist pushing boundaries with innovative techniques
+              combining traditional and digital mediums.</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+
+        <div class="row g-4 artists-grid py-5">
+          <div class="col-md-4 artist-card text-center">
+            <img
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300"
+              class="artist-img mb-3"
+              alt="Sarah Mitchell">
+            <h3>Sarah Mitchell</h3>
+            <p>Contemporary abstract artist specializing in bold colors and
+              emotional expressions through mixed media.</p>
+          </div>
+          <div class="col-md-4 artist-card text-center">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300"
+              class="artist-img mb-3"
+              alt="David Chen">
+            <h3>David Chen</h3>
+            <p>Renowned sculptor and installation artist exploring the
+              intersection of nature and urban life.</p>
+          </div>
+          <div class="col-md-4 artist-card text-center">
+            <img
+              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300"
+              class="artist-img mb-3"
+              alt="Elena Rodriguez">
+            <h3>Elena Rodriguez</h3>
+            <p>Digital artist pushing boundaries with innovative techniques
+              combining traditional and digital mediums.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- shairyar -->
+
+    <!-- About Section -->
+
+    <!-- About Section -->
+    <!-- First Section: Image Left, Text Right -->
+    <section id="about" class="py-5 bg-white">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2>About Our Gallery</h2>
+          <p>Celebrating art and creativity for over two decades</p>
+        </div>
+        <div class="row align-items-center g-5 about-content">
+          <div class="col-md-6">
+            <img
+              src="https://images.unsplash.com/photo-1531243269054-5ebf6f34081e?w=600"
+              class="about-img rounded shadow"
+              alt="Gallery Interior">
+          </div>
+          <div class="col-md-6">
+            <h3>Our Story</h3>
+            <p>Founded in 2004, Artisan Gallery has been at the forefront of
+              contemporary art, showcasing emerging and
+              established artists from around the world. Our mission is to make
+              art accessible and inspire creativity in
+              every visitor.</p>
+            <p>We believe that art has the power to transform spaces, evoke
+              emotions, and spark conversations. Our
+              carefully curated collection represents diverse styles, mediums,
+              and perspectives, ensuring there's
+              something for every art enthusiast.</p>
+            <p>With over 500 exhibitions and 200+ featured artists, we've become
+              a cornerstone of the local art community
+              and a destination for international art lovers.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Second Section: Text Left, Image Right -->
+    <section id="mission" class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center g-5 about-content">
+          <div class="col-md-6">
+            <h3>Our Mission</h3>
+            <p>At Artisan Gallery, our mission is to connect people with art in
+              meaningful ways. We aim to inspire
+              creativity, provoke thought, and provide a platform for artists to
+              share their vision with the world.</p>
+            <p>Through workshops, exhibitions, and community programs, we foster
+              an environment where art is not just
+              observed, but experienced. Our goal is to create a space where
+              imagination thrives and creativity knows no
+              bounds.</p>
+            <a href="#contact" class="btn btn-primary mt-3">Visit Us</a>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=600"
+              class="about-img rounded shadow"
+              alt="Art Exhibition">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- marzia -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <div class="section-title text-center mb-5">
+          <h2>Get In Touch</h2>
+          <p>We'd love to hear from you</p>
+        </div>
+        <div class="row g-4 contact-grid">
+          <div class="col-md-6 contact-form">
+            <h3 class="mb-4">Send Us a Message</h3>
+            <form>
+              <div class="mb-3"><input type="text" class="form-control"
+                  placeholder="Your Name"></div>
+              <div class="mb-3"><input type="email" class="form-control"
+                  placeholder="Email Address"></div>
+              <div class="mb-3"><input type="text" class="form-control"
+                  placeholder="Subject"></div>
+              <div class="mb-3"><textarea rows="5" class="form-control"
+                  placeholder="Your message here..."></textarea>
+              </div>
+              <button class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+          <div class="col-md-6 contact-info">
+            <div class="d-flex mb-4">
+              <i class="fas fa-map-marker-alt fa-2x me-3 text-primary"></i>
+              <div>
+                <h5>Visit Us</h5>
+                <p>123 Art Street, Creative District, New York, NY 10001</p>
+              </div>
+            </div>
+            <div class="d-flex mb-4">
+              <i class="fas fa-phone fa-2x me-3 text-primary"></i>
+              <div>
+                <h5>Call Us</h5>
+                <p>+1 (555) 123-4567 | Mon-Sat, 10AM-6PM</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <i class="fas fa-envelope fa-2x me-3 text-primary"></i>
+              <div>
+                <h5>Email Us</h5>
+                <p>info@artisangallery.com | support@artisangallery.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- shazia -->
+
+    <!-- Footer -->
+    <footer class="footer text-dark py-5"
+      style="background-color: #faf7f3; border-top: 2px solid #e0d6c8;">
+      <div class="container">
+        <div class="row align-items-start">
+
+          <!-- Logo & Contact Info -->
+          <div class="col-md-4 mb-4">
+            <img src="assets/logo.png" alt="art Logo" style="width:40px; ">
+            <p class="mb-2"><i
+                class="fas fa-map-marker-alt me-2 text-secondary"></i><strong>University
+                Road, Gilgit-Baltistan 15100, Pakistan</strong></p>
+            <p class="mb-2"><i
+                class="fas fa-envelope me-2 text-secondary"></i>Email:
+              info@kiu.edu.pk</p>
+            <p class="mb-2"><i
+                class="fas fa-phone me-2 text-secondary"></i>Phone: +92 5811
+              960010-13</p>
+            <p class="mb-2"><i class="fas fa-fax me-2 text-secondary"></i>Fax:
+              (not specified)</p>
+            <div class="social-icons mt-3 ">
+              <a
+                href="https://www.facebook.com/KarakoramInternationalUniversity"
+                class="me-3 " style="  color: var(--primary)"><i
+                  class="fab fa-facebook fa-lg"></i></a>
+              <a href="https://twitter.com/kiugilgit" class="me-3 "
+                style="  color: var(--primary)"><i
+                  class="fab fa-twitter fa-lg"></i></a>
+              <a
+                href="https://www.linkedin.com/school/karakoram-international-university"
+                style="  color: var(--primary)"><i
+                  class="fab fa-linkedin fa-lg"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold mb-3" style="  color: var(--primary);">Quick
+              Links</h5>
+            <div class="row">
+              <div class="col-6">
+                <ul class="list-unstyled ">
+                  <li><a href="#" class="footer-link">About Us</a></li>
+                  <li><a href="#" class="footer-link">Artists</a></li>
+                  <li><a href="#" class="footer-link">Gallery</a></li>
+                  <li><a href="#" class="footer-link">Blog</a></li>
+                  <li><a href="#" class="footer-link">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                  <li><a href="#" class="footer-link">Shipping Policy</a></li>
+                  <li><a href="#" class="footer-link">Refund Policy</a></li>
+                  <li><a href="#" class="footer-link">Terms &
+                      Conditions</a></li>
+                  <li><a href="#" class="footer-link">Disclaimer</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Map -->
+          <div class="col-md-4 mb-4">
+            <h5 class="fw-bold mb-3" style="  color: var(--primary);;">Our
+              Location – KIU, Gilgit</h5>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.0719026126142!2d74.36388971479427!3d35.92074002440748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e64829f88d75a7%3A0x88b009cfe8e5e216!2sKarakoram+International+University!5e0!3m2!1sen!2s!4v1468951014171"
+              width="100%" height="220" style="border:0; border-radius:10px;"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+
+          <!-- Bottom Bar -->
+          <div class="text-center mt-4 pt-3 border-top"
+            style="border-color:#e0d6c8;">
+            <p class="mb-0" style="font-size: 14px;   color: var(--primary);">
+              © 2025 Unique Creation & Arts. All Rights Reserved. | Designed
+              with for Art Enthusiasts
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Footer CSS -->
+      <style>
+ 
+</style>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+  </html>
