@@ -68,6 +68,8 @@ body {
 
 .carousel-caption h1 {
   font-size: 3.5rem;
+  font-family: "DM Serif Display", serif;
+  font-weight: 400 !important;
 }
 
 .carousel-caption p {
@@ -157,6 +159,10 @@ body {
   /* right arrow */
 }
 
+.carousel-caption h1,
+.carousel-caption .lead {
+  text-align: start !important;
+}
 
 
 .carousel-caption p {
@@ -186,7 +192,13 @@ body {
   .carousel-caption p {
     font-size: 1rem;
   }
+
+  .carousel-caption h1,
+  .carousel-caption .lead {
+    text-align: center !important;
+  }
 }
+
 
 
 /* Categories */
@@ -316,8 +328,9 @@ section h2 {
   text-decoration: none;
   color: white;
 }
-.popup:target ~ .navbar,
-.popup:target ~ nav {
+
+.popup:target~.navbar,
+.popup:target~nav {
   display: none !important;
 }
 
@@ -332,6 +345,7 @@ section h2 {
   width: 100%;
   z-index: 10;
 }
+
 /* qamar */
 
 
@@ -356,6 +370,15 @@ section h2 {
   border-radius: 50%;
   object-fit: cover;
 }
+.artist-card p {
+  font-size: 13px;
+  text-align: center;
+  line-height: 1.4;
+}
+.artist-card h3 {
+  text-align: center;
+}
+
 
 /* shairyar */
 
@@ -373,6 +396,7 @@ section h2 {
 .about-text h3 {
   color: var(--primary);
 }
+
 p {
   text-align: justify;
   line-height: 1.8;
@@ -405,10 +429,11 @@ p {
 .contact-info i {
   color: var(--primary);
 }
+
 .contact-card {
   background: #fff;
   border-radius: 12px;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
   align-items: center;
@@ -433,9 +458,10 @@ p {
 /* Hover effect */
 .contact-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
 }
-.cont_par{
+
+.cont_par {
   text-align: center;
 }
 
