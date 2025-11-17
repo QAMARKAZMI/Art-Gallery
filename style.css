@@ -26,8 +26,7 @@ body {
 /* Navbar */
 .navbar {
   transition: background var(--transition-speed);
-  /* border: 1px solid black; */
-  columns: var(--bg-dark);
+  color: var(--bg-dark);
 }
 
 .navbar-brand {
@@ -35,8 +34,8 @@ body {
   color: var(--primary);
 }
 
-.navbar-dark .navbar-nav .nav-link {
-  color: var(--bg-dark);
+.navbar-dark .navbar-nav .nav-link  {
+  color: var(--primary);
   font-weight: 500;
   margin-left: 1rem;
   transition: color var(--transition-speed);
@@ -50,15 +49,12 @@ body {
 
 .hero {
   margin-top: 70px;
-  /* offset navbar */
 }
 
 .hero-img {
   height: 90vh;
-  /* increased height to nearly full screen */
   object-fit: cover;
   filter: brightness(75%);
-  /* darken for better text visibility */
 }
 
 .carousel-caption {
@@ -370,11 +366,13 @@ section h2 {
   border-radius: 50%;
   object-fit: cover;
 }
+
 .artist-card p {
   font-size: 13px;
   text-align: center;
   line-height: 1.4;
 }
+
 .artist-card h3 {
   text-align: center;
 }
